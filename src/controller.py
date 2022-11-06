@@ -2,8 +2,7 @@
 # -----------------------------------------------------------------------------
 # ----- Libraries
 # -----------------------------------------------------------------------------
-# import time                             # :: for implementing delay
-
+from src.converters import markdown_to_lua as mdToLua                          # :: for implementing delay
 
 
 # ==== Disabled Library
@@ -19,10 +18,11 @@ class Args:
 
 class Controller:
     def __init__(self):
-        pass
+        self.mdToLua = mdToLua.MarkdownToLua(self)
 
     def start(self):
-        print('i am working')
+        # print('i am working')
+        self.mdToLua.start()
 
 # -----------------------------------------------------------------------------
 # ----- Start

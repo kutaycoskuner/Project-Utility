@@ -25,10 +25,16 @@
 - mix: multiple additions
 
 # Todo
+- 06-Nov-2022 add: write function to lib/readwrite.py
 - 06-Nov-2022 add: timelog reader
 - 06-Nov-2022 add: md to lua table converter
 - 06-Nov-2022 add: md to html table converter
+- 06-Nov-2022 add: time table to excel
 
 # Log 
+- 06-Nov-2022 0.11
+    - add: github data file
+    - add: prototype read/write library and tests
+    - add: mdtolua converter prototype
 - 06-Nov-2022 0.1   arch: Project template init
 
